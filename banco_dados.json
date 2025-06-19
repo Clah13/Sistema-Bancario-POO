@@ -1,0 +1,41 @@
+{
+    "numero_conta": "12345-X",
+    "saldo": 2000.0,
+    "extrato": [
+        {
+            "data_hora": "19/06/2025 18:00:22",
+            "tipo": "Dep\u00f3sito",
+            "valor": 500.0
+        },
+        {
+            "data_hora": "19/06/2025 18:00:22",
+            "tipo": "Saque",
+            "valor": 250.0
+        },
+        {
+            "data_hora": "19/06/2025 18:00:22",
+            "tipo": "Transferencia para 67890-Y",
+            "valor": 400.0
+        },
+        {
+            "data_hora": "19/06/2025 18:03:02",
+            "tipo": "Dep\u00f3sito",
+            "valor": 1000.0
+        },
+        {
+            "data_hora": "19/06/2025 18:03:08",
+            "tipo": "Saque",
+            "valor": 50.0
+        },
+        {
+            "data_hora": "19/06/2025 18:03:25",
+            "tipo": "Transferencia para 54321-Y",
+            "valor": 800.0
+        },
+        {
+            "data_hora": "19/06/2025 18:03:38",
+            "tipo": "Dep\u00f3sito",
+            "valor": 1000.0
+        }
+    ]
+}

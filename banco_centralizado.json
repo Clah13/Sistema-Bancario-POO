@@ -1,0 +1,59 @@
+{
+    "111111": {
+        "numero_conta": "111111",
+        "saldo": 1204.0,
+        "extrato": [
+            {
+                "data_hora": "19/06/2025 18:14:27",
+                "tipo": "Dep\u00f3sito",
+                "valor": 1050.0
+            },
+            {
+                "data_hora": "19/06/2025 18:14:35",
+                "tipo": "Dep\u00f3sito",
+                "valor": 2.0
+            },
+            {
+                "data_hora": "19/06/2025 18:14:41",
+                "tipo": "Saque",
+                "valor": 98.0
+            },
+            {
+                "data_hora": "19/06/2025 18:21:13",
+                "tipo": "Dep\u00f3sito",
+                "valor": 300.0
+            },
+            {
+                "data_hora": "19/06/2025 18:22:05",
+                "tipo": "Transferencia para 123456",
+                "valor": 50.0
+            }
+        ]
+    },
+    "123456": {
+        "numero_conta": "123456",
+        "saldo": 2050.0,
+        "extrato": [
+            {
+                "data_hora": "19/06/2025 18:21:07",
+                "tipo": "Dep\u00f3sito",
+                "valor": 2500.0
+            },
+            {
+                "data_hora": "19/06/2025 18:21:13",
+                "tipo": "Transferencia para 111111",
+                "valor": 300.0
+            },
+            {
+                "data_hora": "19/06/2025 18:21:17",
+                "tipo": "Saque",
+                "valor": 200.0
+            },
+            {
+                "data_hora": "19/06/2025 18:22:05",
+                "tipo": "Dep\u00f3sito",
+                "valor": 50.0
+            }
+        ]
+    }
+}
