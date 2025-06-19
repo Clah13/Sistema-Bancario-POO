@@ -13,23 +13,23 @@ Etapa 1: Definir a Classe Principal que representará uma conta bancária. [*Sys
 
   >Implementa a Classe ContaBancaria e o método construtor \_\_init\_\_. Define regras de proteção dos atributos (ex: \_numero_conta). Implementa testes para exemplo de uso. 
 
-Etapa 2: Mover as operações bancárias para dentro da classe como métodos.
+Etapa 2: Mover as operações bancárias para dentro da classe como métodos. [*Sysbank_POO_2*]
 
   > Os principais métodos do menu - consultar saldo, depositar e sacar - são refatorados para dentro da classe ContaBancaria, com testes ou exemplos de uso.
 
-Etapa 3: Adicionar as funcionalidades de extrato detalhado e transferência entre contas.
+Etapa 3: Adicionar as funcionalidades de extrato detalhado e transferência entre contas.[*Sysbank_POO_3*]
 
   > Refatoração dos métodos para exibir o extrato e transferir para outra conta, com adaptações necessárias para a Classe ContaBancaria.
 
-Etapa 4: Salvar e carregar os dados das contas bancárias usando JSON.
+Etapa 4: Salvar e carregar os dados das contas bancárias usando JSON. [*Sysbank_POO_4*]
 
 > Implementa a função salvar_dados e carregar_dados para manter o histórico das operações na conta e também consultá-lo quando necessário.
 
-Etapa 5: Criar o loop principal do programa que interage com o usuário e utiliza a classe ContaBancaria.
+Etapa 5: Criar o loop principal do programa que interage com o usuário e utiliza a classe ContaBancaria. [*Sysbank_POO_5*]
 
 > Implementa o Menu utilizado para navegar no programa, conectando com os métodos e salvamento implementados nos passos anteriores. Permite a transferência entre conta, com um banco secundário (banco_secundario.json) para manter os registros.
 
-Etapa 6: Desafio
+Etapa 6: Desafio [*Sysbank_POO_Desafio*]
 
 > Implementa um protótipo para gerenciamento de múltiplas contas. Os dados são salvos em um único JSON (banco_centralizado). O Menu foi dividido em duas seções: criação de conta e ao entrar, ações bancárias.
 
